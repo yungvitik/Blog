@@ -1,0 +1,21 @@
+.NewPostForm {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+
+  &__input {
+    width: 70vw;
+    height: 5vh;
+    border: none;
+    border-bottom: 1px solid #4d457b;
+    font-family: inherit;
+    font-size: 0.9rem;
+    padding: 10px 5px;
+    color: #4d457b;
+  }
+
+  &__submit-button {
+    height: 10vh;
+  }
+}
